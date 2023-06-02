@@ -1,0 +1,47 @@
+.atividades {
+    border-radius: 8px;
+    padding: 1rem;
+    background: var(--gray-400);
+    width: 100%;
+    max-width: 730px;
+    height: 4.5rem;
+    margin-top: 1rem;
+    
+}
+
+.atividades header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.atividades header > button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    color: var(--gray-300);
+}
+
+.atividadesListadas {
+    display: flex;
+    font-size: 0.875rem;
+    gap: 1rem;
+    line-height: 1.4;
+}
+
+.atividadesListadas p{
+   color: var(--gray-100);
+}
+
+.atividadesListadas span{
+    text-decoration: line-through;
+}
+
+
+.atividadesListadas button {
+    color: var(--purple-dark);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+
+ }
